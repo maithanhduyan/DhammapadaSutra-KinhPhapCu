@@ -43,14 +43,15 @@
         <div class="row">
 
             <div class="col-lg-3">
-
-                <h1 class="my-4"></h1>
-                <div class="list-group">
-                    <a href="#" class="list-group-item">Phẩm Song Yếu</a>
-                    <a href="#" class="list-group-item">Phẩm Không Phóng Dật</a>
-                    <a href="#" class="list-group-item">Phẩm Tâm</a>
+                <div class="form-group">
+                    <label for="sel1"></label>
+                    <select class="form-control" id="sel1">
+                        <option>Phẩm Song Yếu</option>
+                        <option>Phẩm Không Phóng Dật</option>
+                        <option>Phẩm Tâm</option>
+                        <option>Phẩm Hoa</option>
+                    </select>
                 </div>
-
             </div>
             <!-- /.col-lg-3 -->
 
@@ -115,10 +116,10 @@
                             <a href="#"><img class="card-img-top" src="{{asset('img/pham-song-yeu/pham-song-yeu-004.jpg')}}" alt=""></a>
                             <div class="card-body">
                                 <p class="card-text sutra-text">
-                                    Nó mắng tôi, đánh tôi,
-                                    Nó thắng tôi, cướp tôi
-                                    Không ôm hiềm hận ấy,
-                                    Hận thù được tự nguôi.
+                                    Nó mắng tôi, đánh tôi,<br>
+                                    Nó thắng tôi, cướp tôi<br>
+                                    Không ôm hiềm hận ấy,<br>
+                                    Hận thù được tự nguôi.<br>
                                 </p>
                             </div>
                             <div class="card-footer">
