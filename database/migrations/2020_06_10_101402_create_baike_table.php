@@ -16,6 +16,9 @@ class CreateBaikeTable extends Migration
         Schema::create('baike', function (Blueprint $table) {
             $table->id();
             $table->string('content');
+            $table->integer('number');
+            $table->string('pham');
+            $table->string('img_url');
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
         });

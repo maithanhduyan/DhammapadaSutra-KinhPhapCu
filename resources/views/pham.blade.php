@@ -13,34 +13,16 @@
 @section('content')
 
 <div class="row">
-    <!-- Sidebar-->
-    <div class="col-lg-3">
-        <div class="form-group">
-            <label for="sel1"></label>
-            <select class="form-control" id="sel1">
-                @foreach ($pham_list as $item)
-                <option value="{{ $item->name }}"> {{ $item->content }} </option>
-                @endforeach
-            </select>
-        </div>
-    </div>
-    <!-- /.col-lg-3 -->
-
-    <div class="col-lg-9">
+    <div class="col-lg-12">
         <div></div><br>
         <div class="row">
-            
+            @foreach ($baike_list as $baike)
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="{{asset('img/pham-song-yeu/pham-song-yeu-001.jpg')}}" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="{{asset($baike->img_url)}}" alt=""></a>
                     <div class="card-body">
                         <p class="card-text sutra-text">
-                            Ý dẫn đầu các pháp,<br>
-                            Ý làm chủ, ý tạo;<br>
-                            Nếu với ý ô nhiễm,<br>
-                            Nói lên hay hành động,<br>
-                            Khổ não bước theo sau,<br>
-                            Như xe, chân vật kéo.<br>
+                            {!!$baike->content!!}
                         </p>
                     </div>
                     <div class="card-footer">
@@ -48,6 +30,7 @@
                     </div>
                 </div>
             </div>
+            @endforeach
 
         </div>
         <!-- /.col-lg-9-->
@@ -57,6 +40,11 @@
 
     @push('page-scripts')
     <script type="text/javascript">
-
+        $(document).ready(function() {
+            $('#pham_select').on('change', function() {
+                console.log($('#pham_select').val())
+                $('#pham_frm').submit();
+            })
+        })
     </script>
     @endpush
