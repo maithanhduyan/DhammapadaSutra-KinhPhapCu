@@ -14,7 +14,8 @@
 
 <div class="row">
     <div class="col-lg-12">
-        <div></div><br>
+        <h3 style="text-align: center;">{{$pham->content}}</h3>
+        <br>
         <div class="row">
             @foreach ($baike_list as $baike)
             <div class="col-lg-4 col-md-6 mb-4">

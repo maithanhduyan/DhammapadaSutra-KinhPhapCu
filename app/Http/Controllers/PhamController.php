@@ -29,8 +29,9 @@ class PhamController extends Controller
             ->orderBy('number', 'asc')
             ->get();
 
+        $pham_name = Pham::where('name', $pham)->first();
         return view('pham', [
-            'pham' => $pham,
+            'pham' => $pham_name,
             'pham_list' => $pham_list,
             'baike_list' => $baike_list,
         ]);
