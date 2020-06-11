@@ -4,6 +4,8 @@
 <head>
 
     <meta charset="utf-8">
+    <!-- Icon -->
+    <link rel="icon" href="{{asset('img/icon/buddha_vector_transparent_icon.png')}}"  type="image/png" sizes="16x16 32x32">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -91,7 +93,7 @@
     <script src="{{asset('lib/aos/aos.js')}}"></script>
 
     <script src="{{asset('js/main.js')}}"></script>
-    
+
     @stack('page-scripts')
 </body>
 
