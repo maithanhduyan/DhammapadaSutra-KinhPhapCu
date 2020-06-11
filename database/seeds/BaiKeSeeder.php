@@ -46,7 +46,17 @@ class BaiKeSeeder extends Seeder
             array('id' => '30', 'content' => 'Ðế Thích không phóng dật,<br>Ðạt ngôi vị Thiên chủ.<br>Không phóng dật, được khen ;<br>Phóng dật, thường bị trách.<br>', 'number' => '30', 'pham' => 'pham-khong-phong-dat', 'img_url' => 'img/pham-khong-phong-dat/pham-khong-phong-dat-030.jpg'),
             array('id' => '31', 'content' => 'Vui thích không phóng dật,<br>Tỷ kheo sợ phóng dật,<br>Bước tới như lửa hừng,<br>Thiêu kiết sử lớn nhỏ.<br>', 'number' => '31', 'pham' => 'pham-khong-phong-dat', 'img_url' => 'img/pham-khong-phong-dat/pham-khong-phong-dat-031.jpg'),
             array('id' => '32', 'content' => 'Vui thích không phóng dật,<br>Tỷ kheo sợ phóng dật,<br>Không thể bị thối đọa,<br>Nhất định gần Niết Bàn.<br>', 'number' => '32', 'pham' => 'pham-khong-phong-dat', 'img_url' => 'img/pham-khong-phong-dat/pham-khong-phong-dat-032.jpg'),
-            array('id' => '33', 'content' => '<br>', 'number' => '33', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-033.jpg'),
+            array('id' => '33', 'content' => 'Tâm hoảng hốt giao động,<br>Khó hộ trì, khó nhiếp,<br>Người trí làm tâm thẳng,<br>Như thợ tên, làm tên.<br>', 'number' => '33', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-033.jpg'),
+            array('id' => '34', 'content' => 'Như cá quăng lên bờ,<br>Vất ra ngoài thủy giới;<br>Tâm này vùng vẫy mạnh,<br>Hãy đoạn thế lực Ma.<br>', 'number' => '34', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-034.jpg'),
+            array('id' => '35', 'content' => 'Khó nắm giữ, khinh động,<br>Theo các dục quay cuồng.<br>Lành thay, điều phục tâm;<br>Tâm điều, an lạc đến.<br>', 'number' => '35', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-035.jpg'),
+            array('id' => '36', 'content' => 'Tâm khó thấy, tế nhị,<br>Theo các dục quay cuồng.<br>Người trí phòng hộ tâm,<br>Tâm hộ, an lạc đến.<br>', 'number' => '36', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-036.jpg'),
+            array('id' => '37', 'content' => 'Chạy xa, sống một mình,<br>Không thân, ẩn hang sâu [1]<br>Ai điều phục được tâm,<br>Thoát khỏi Ma trói buộc. [2]<br>', 'number' => '37', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-037.jpg'),
+            array('id' => '38', 'content' => 'Ai tâm không an trú,<br>Không biết chân diệu pháp,<br>Tịnh tín bị rúng động,<br>Trí tuệ không viên thành.<br>', 'number' => '38', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-038.jpg'),
+            array('id' => '39', 'content' => 'Tâm không đầy tràn dục,<br>Tâm không (hận) công phá,<br>Ðoạn tuyệt mọi thiện ác,<br>Kẻ tỉnh không sợ hãi.<br>', 'number' => '39', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-039.jpg'),
+            array('id' => '40', 'content' => 'Biết thân như đồ gốm,<br>Trú tâm như thành trì,<br>Chống Ma với gươm trí ;<br>Giữ chiến thắng [3] không tham [4]<br>', 'number' => '40', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-040.jpg'),
+            array('id' => '41', 'content' => 'Không bao lâu thân này,<br>Sẽ nằm dài trên đất,<br>Bị vất bỏ, vô thức,<br>Như khúc cây vô dụng.<br>', 'number' => '41', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-041.jpg'),
+            array('id' => '42', 'content' => 'Kẻ thù hại kẻ thù,<br>Oan gia hại oan gia,<br>Không bằng tâm hướng tà, [5]<br>Gây ác cho tự thân.<br>', 'number' => '42', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-042.jpg'),
+            array('id' => '43', 'content' => 'Ðiều mẹ cha bà con,<br>Không có thể làm được,<br>Tâm hướng chánh làm được<br>Làm được tốt đẹp hơn.<br>', 'number' => '43', 'pham' => 'pham-tam', 'img_url' => 'img/pham-tam/pham-tam-043.jpg'),
         );
         DB::table('baike')->insert($baike);
     }
