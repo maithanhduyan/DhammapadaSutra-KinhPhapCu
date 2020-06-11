@@ -10,6 +10,7 @@
     //Navbar Toggle Button Click
     $('.navbar-toggler').on('click', function() {
         // Change icon
+        $(this).children('.fa-bars, .fa-times').toggleClass("fa fa-bars fa fa-times");
     });
 
     // Toggle .header-scrolled class to #header when page is scrolled

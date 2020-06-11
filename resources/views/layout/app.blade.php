@@ -4,8 +4,16 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#F8F9FA" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#F8F9FA">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F8F9FA">
+    <meta name="description" content="Kinh Pháp Cú">
     <meta name="author" content="Mai Thành Duy An">
 
     <title>@yield('title')</title>
@@ -59,12 +67,11 @@
     <!-- Navbar -->
     @include('layout.navbar')
     <!-- /.navbar -->
-    <br>
+
     <!-- Page Content -->
     <div class="container">
         @yield('content')
-    </div>
-    <!-- /.container -->
+    </div><!-- /.container -->
 
     <!-- Footer -->
     <footer class="py-3 bg-light">
@@ -72,7 +79,7 @@
             <p class="m-0 text-center text-black copyright">Copyright &copy; Mai Thành Duy An &nbsp; 2020</p>
         </div>
         <!-- /.container -->
-    </footer>
+    </footer><!-- /.Footer -->
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
@@ -84,6 +91,7 @@
     <script src="{{asset('lib/aos/aos.js')}}"></script>
 
     <script src="{{asset('js/main.js')}}"></script>
+    
     @stack('page-scripts')
 </body>
 

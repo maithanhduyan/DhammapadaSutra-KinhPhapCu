@@ -2,6 +2,7 @@
 * Email: tiachop0102@gmail.com
 */
 
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 /*--------------------------------------------------------------
 # html content
@@ -18,7 +19,7 @@ body {
 
 .navbar-brand {
     font-family: 'Philosopher', sans-serif;
-    margin: 0em !important;
+    margin: 0px;
 }
 
 .navbar-logo {
@@ -27,8 +28,14 @@ body {
     padding-right: 5px;
 }
 
+.navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+}
+
 .nav-option-display {
     font-family: 'Philosopher', sans-serif;
+    color: #1E1E1E !important;
 }
 
 .nav-option-item {
@@ -53,17 +60,6 @@ body {
     background: #1E1E1E;
 }
 
-@media (max-width: 992px) {
-    .nav-option-display {
-        font-family: 'Philosopher', sans-serif;
-        text-align: center;
-    }
-    .navbar-nav .dropdown-menu {
-        text-align: center;
-        width: auto;
-    }
-}
-
 #header {
     transition: all 0.5s;
     z-index: 997;
@@ -72,13 +68,23 @@ body {
 
 #header.header-scrolled {
     background: rgba(255, 255, 255, 0.90) !important;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     #header {
-        background: rgba(255, 255, 255, 0.90)!important;
-        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1)!important;
+        background: rgba(255, 255, 255, 0.90) !important;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    }
+    .nav-option-display {
+        font-family: 'Philosopher', sans-serif;
+        text-align: center;
+        font-size: 18px;
+    }
+    .navbar-nav .dropdown-menu {
+        text-align: center;
+        width: auto;
+        font-size: 18px;
     }
 }
 
@@ -121,8 +127,9 @@ body {
 --------------------------------------------------------------*/
 
 .section-title {
+    padding-top: 10px;
     text-align: center;
-    font-family: 'Old Standard TT', serif !important;
+    font-family: 'Old Standard TT', serif;
     font-size: 28px;
     font-weight: 400;
 }
@@ -133,5 +140,5 @@ body {
 --------------------------------------------------------------*/
 
 .copyright {
-    font-family: 'Philosopher', sans-serif !important;
+    font-family: 'Philosopher', sans-serif;
 }
