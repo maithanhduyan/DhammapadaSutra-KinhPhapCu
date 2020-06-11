@@ -7,6 +7,11 @@
 !(function($) {
     "use strict";
 
+    //Navbar Toggle Button Click
+    $('.navbar-toggler').on('click', function() {
+        // Change icon
+    });
+
     // Toggle .header-scrolled class to #header when page is scrolled
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
@@ -19,6 +24,8 @@
     if ($(window).scrollTop() > 100) {
         $('#header').addClass('header-scrolled');
     }
+
+
     // Back to top button
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {

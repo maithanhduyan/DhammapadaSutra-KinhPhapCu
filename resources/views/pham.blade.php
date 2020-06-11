@@ -14,7 +14,7 @@
 
 <div class="row">
     <div class="col-lg-12">
-        <h3 style="text-align: center;">{{$pham->content}}</h3>
+        <h3 class="section-title" data-aos="zoom-out-down">{{$pham->content}}</h3>
         <br>
         <div class="row">
             @foreach ($baike_list as $baike)

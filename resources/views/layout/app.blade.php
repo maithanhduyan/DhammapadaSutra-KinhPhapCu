@@ -39,8 +39,16 @@
             /* font-family: 'Charmonman', cursive !important; */
             /* font-family: 'Markazi Text', serif !important; */
             font-family: 'Old Standard TT', serif !important;
-            font-size: 24px;
+            font-size: 21px;
             font-weight: 400;
+        }
+
+        @media only screen and (max-width: 320px) {
+
+            /* For mobile phones: */
+            .sutra-text {
+                font-size: 18px;
+            }
         }
     </style>
     @stack('page-styles')
@@ -61,7 +69,7 @@
     <!-- Footer -->
     <footer class="py-3 bg-light">
         <div class="container">
-            <p class="m-0 text-center text-black">Copyright &copy; 2020</p>
+            <p class="m-0 text-center text-black copyright">Copyright &copy; Mai Thành Duy An &nbsp; 2020</p>
         </div>
         <!-- /.container -->
     </footer>

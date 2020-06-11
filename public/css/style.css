@@ -1,9 +1,67 @@
+/* Author: Mai Thành Duy An 
+* Email: tiachop0102@gmail.com
+*/
+
+
+/*--------------------------------------------------------------
+# html content
+--------------------------------------------------------------*/
+
 body {
     padding-top: 56px;
 }
 
+
+/*--------------------------------------------------------------
+# Navigation bar
+--------------------------------------------------------------*/
+
 .navbar-brand {
     font-family: 'Philosopher', sans-serif;
+    margin: 0em !important;
+}
+
+.navbar-logo {
+    width: 20px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.nav-option-display {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.nav-option-item {
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Dropdown menu
+--------------------------------------------------------------*/
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    overflow-x: hidden;
+    height: 531px;
+    width: 250px;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    background: #1E1E1E;
+}
+
+@media (max-width: 992px) {
+    .nav-option-display {
+        font-family: 'Philosopher', sans-serif;
+        text-align: center;
+    }
+    .navbar-nav .dropdown-menu {
+        text-align: center;
+        width: auto;
+    }
 }
 
 #header {
@@ -48,16 +106,32 @@ body {
     font-size: 24px;
     position: absolute;
     top: 7px;
-    left: 8px;
+    left: 7px;
 }
 
 .back-to-top:hover {
     color: #fff;
-    background: #000;
+    background: #1E1E1E;
     transition: background 0.2s ease-in-out;
 }
 
-.dropdown-item:hover {
-    color: #fff;
-    background: #000;
+
+/*--------------------------------------------------------------
+# Section Content
+--------------------------------------------------------------*/
+
+.section-title {
+    text-align: center;
+    font-family: 'Old Standard TT', serif !important;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.copyright {
+    font-family: 'Philosopher', sans-serif !important;
 }

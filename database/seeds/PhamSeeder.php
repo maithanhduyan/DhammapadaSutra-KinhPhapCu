@@ -21,7 +21,7 @@ class PhamSeeder extends Seeder
             array('id' => '4', 'name' => 'pham-hoa', 'content' => 'Phẩm Hoa'),
             array('id' => '5', 'name' => 'pham-ngu', 'content' => 'Phẩm Ngu'),
             array('id' => '6', 'name' => 'pham-hien-tri', 'content' => 'Phẩm Hiền Trí'),
-            array('id' => '7', 'name' => 'pham-a-la-han', 'content' => 'Phẩm A-La-Han'),
+            array('id' => '7', 'name' => 'pham-a-la-han', 'content' => 'Phẩm A-La-Hán'),
             array('id' => '8', 'name' => 'pham-ngan', 'content' => 'Phẩm Ngàn'),
             array('id' => '9', 'name' => 'pham-ac', 'content' => 'Phẩm Ác'),
             array('id' => '10', 'name' => 'pham-hinh-phat', 'content' => 'Phẩm Hình Phạt'),
