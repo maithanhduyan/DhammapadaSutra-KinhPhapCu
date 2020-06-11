@@ -1,3 +1,144 @@
+/* Author: Mai Thành Duy An 
+* Email: tiachop0102@gmail.com
+*/
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/*--------------------------------------------------------------
+# html content
+--------------------------------------------------------------*/
+
 body {
     padding-top: 56px;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation bar
+--------------------------------------------------------------*/
+
+.navbar-brand {
+    font-family: 'Philosopher', sans-serif;
+    margin: 0px;
+}
+
+.navbar-logo {
+    width: 32px;
+    height: 32px;
+    padding-right: 5px;
+}
+
+.navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.nav-option-display {
+    font-family: 'Philosopher', sans-serif;
+    color: #1E1E1E !important;
+}
+
+.nav-option-item {
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Dropdown menu
+--------------------------------------------------------------*/
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    overflow-x: hidden;
+    height: 531px;
+    width: 250px;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    background: #1E1E1E;
+}
+
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+}
+
+#header.header-scrolled {
+    background: rgba(255, 255, 255, 0.90) !important;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 992px) {
+    #header {
+        background: rgba(255, 255, 255, 0.90) !important;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    }
+    .nav-option-display {
+        font-family: 'Philosopher', sans-serif;
+        text-align: center;
+        font-size: 18px;
+    }
+    .navbar-nav .dropdown-menu {
+        text-align: center;
+        width: auto;
+        font-size: 18px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: solid 1px #000;
+    right: 15px;
+    bottom: 15px;
+    background: #fff;
+    color: #000;
+    transition: display 0.5s ease-in-out;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.back-to-top:hover {
+    color: #fff;
+    background: #1E1E1E;
+    transition: background 0.2s ease-in-out;
+}
+
+
+/*--------------------------------------------------------------
+# Section Content
+--------------------------------------------------------------*/
+
+.section-title {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.copyright {
+    font-family: 'Philosopher', sans-serif;
 }

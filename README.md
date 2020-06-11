@@ -2,5 +2,9 @@
 Dhammapada Sutra - Kinh Pháp Cú
 
 ### Preview site
-
-![Preview site](documents/gallery/preview-site.PNG)
+#### Desktop
+![Preview site](documents/gallery/Desktop.PNG)
+#### Tablet
+![Preview site](documents/gallery/Ipad.PNG)
+#### Mobile
+![Preview site](documents/gallery/Iphone.PNG)
