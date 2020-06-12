@@ -3,6 +3,24 @@
 */
 
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url(font/Old-Standard-TT/OldStandardTT-Italic.ttf), url(font/Old-Standard-TT/OldStandardTT-Regular.ttf);
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(font/Playfair-Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url(font/Philosopher/Philosopher-BoldItalic.ttf);
+    /* Safari, Android, iOS */
+}
+
 
 /*--------------------------------------------------------------
 # html content
@@ -132,6 +150,11 @@ body {
     font-family: 'Old Standard TT', serif;
     font-size: 28px;
     font-weight: 400;
+}
+
+.text-muted .nammo-ico {
+    height: 16px;
+    width: 16px;
 }
 
 
