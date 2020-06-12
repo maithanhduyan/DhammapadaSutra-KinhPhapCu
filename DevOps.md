@@ -49,3 +49,36 @@ php artisan krlove:generate:model Users --table-name=users
 or
 php artisan krlove:generate:model Users --output-path=Model --table-name=users
 ~~~~
+
+## Heroku Deploy
+
+- Open command promt :
+~~~~
+heroku login
+~~~~
+- Run bash command
+~~~~
+heroku login
+heroku run bash -a APPNAME
+$ cd app
+~~~~
+- Create .env configuaration file 
+~~~~
+copy .env.example .env
+~~~~
+## First time deploy laravel 
+~~~~
+php artisan cache:clear
+php artisan clear-compiled
+sudo chmod -R 777 storage
+chmod -R 777 bootstrap/cache/
+composer dump-autoload
+php artisan key:generate
+php artisan optimize
+~~~~
+## Connect Postgresql Database (.env file)
+Open php.ini configuaration file and uncomment 
+~~~~
+extension=php_pgsql.dll
+extension=php_pdo_pgsql.dll
+~~~~
