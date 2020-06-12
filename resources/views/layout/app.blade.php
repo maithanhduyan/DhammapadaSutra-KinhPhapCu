@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <!-- Icon -->
-    <link rel="icon" href="{{asset('img/icon/buddha_vector_transparent_icon.png')}}"  type="image/png" sizes="16x16 32x32">
+    <link rel="icon" href="{{asset('img/icon/buddha_vector_transparent_icon.png')}}" type="image/png" sizes="16x16 32x32">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -38,6 +38,7 @@
     <link href="{{asset('lib/aos/aos.css')}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
     <style>

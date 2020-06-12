@@ -27,7 +27,11 @@
                         </p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        <small class="text-muted">
+                            <div aria-label="Chọn biểu tượng cảm xúc 🙏" role="button" tabindex="0">
+                                <img class="nammo-ico" src="{{asset('img/icon/2hand.png')}}" alt="" style="margin: 0px;">
+                            </div>
+                        </small>
                     </div>
                 </div>
             </div>
@@ -42,7 +46,7 @@
     @push('page-scripts')
     <script type="text/javascript">
         $(document).ready(function() {
-            
+
         })
     </script>
     @endpush
