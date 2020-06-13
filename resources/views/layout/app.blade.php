@@ -96,7 +96,7 @@
 
     <script src="{{asset('js/main.js')}}"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=235892012"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-30ERQTW3FG"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -105,7 +105,7 @@
         }
         gtag('js', new Date());
 
-        gtag('config', '235892012');
+        gtag('config', 'G-30ERQTW3FG');
     </script>
     @stack('page-scripts')
 </body>
