@@ -16,6 +16,7 @@
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#F8F9FA">
     <meta name="description" content="Kinh Pháp Cú">
+    <meta name="content" content="Người trị thủy dẫn nước,<br>Kẻ làm tên nắn tên,<br>Người thợ mộc uốn gỗ,<br>Bậc trí nhiếp tự thân.<br>">
     <meta name="author" content="Mai Thành Duy An">
 
     <title>@yield('title')</title>
@@ -38,7 +39,7 @@
     <link href="{{asset('lib/aos/aos.css')}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    
+
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
     <style>

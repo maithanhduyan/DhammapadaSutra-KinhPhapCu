@@ -82,3 +82,7 @@ Open php.ini configuaration file and uncomment
 extension=php_pgsql.dll
 extension=php_pdo_pgsql.dll
 ~~~~
+
+## SSL config
+on file .env add new variable 
+>ASSET_URL=https://yourdomain
