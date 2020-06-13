@@ -95,7 +95,18 @@
     <script src="{{asset('lib/aos/aos.js')}}"></script>
 
     <script src="{{asset('js/main.js')}}"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=235892012"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', '235892012');
+    </script>
     @stack('page-scripts')
 </body>
 
