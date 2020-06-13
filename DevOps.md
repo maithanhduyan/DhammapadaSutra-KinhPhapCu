@@ -70,7 +70,7 @@ copy .env.example .env
 ~~~~
 php artisan cache:clear
 php artisan clear-compiled
-sudo chmod -R 777 storage
+chmod -R 777 storage
 chmod -R 777 bootstrap/cache/
 composer dump-autoload
 php artisan key:generate
