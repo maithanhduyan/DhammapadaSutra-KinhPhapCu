@@ -16,11 +16,10 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         @foreach($pham_list as $pham)
-                        <a class="dropdown-item nav-option-item" href="/pham/{{$pham->name}}">{{$pham->content}} <span class="sr-only">(current)</span></a>
+                        <a class="dropdown-item nav-option-item" href="/phams/{{$pham->name}}">{{$pham->content}} <span class="sr-only">(current)</span></a>
                         @endforeach
                     </div>
                 </li>
             </ul>
         </div>
 </nav>
-

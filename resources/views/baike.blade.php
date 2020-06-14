@@ -17,13 +17,13 @@
         <h3 class="section-title" data-aos="zoom-out-down">{{$pham->content}}</h3>
         <br>
         <div class="row">
-            @foreach ($baike_list as $baike)
-            <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-down">
+            <div class="col-lg-4 col-md-6 mb-4"></div>
+            <div class="col-lg-4 col-md-6 mb-4 " data-aos="zoom-in-up">
                 <div class="card h-100">
-                    <a href="/phams/{{$pham->name}}/baike/{{$baike->number}}"><img class="card-img-top" src="{{asset($baike->img_url)}}" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="{{asset($baike->img_url)}}" alt="Bài kệ {{$baike->number}}"></a>
                     <div class="card-body">
                         <p class="card-text sutra-text">
-                            {!!$baike->content!!}
+                            {!! $baike->content !!}
                         </p>
                     </div>
                     <div class="card-footer">
@@ -35,18 +35,18 @@
                     </div>
                 </div>
             </div>
-            @endforeach
-
+            <div class="col-lg-4 col-md-6 mb-4"></div>
         </div>
-        <!-- /.col-lg-9-->
+        <!-- /.col-lg-12-->
     </div>
     <!-- /.row -->
+
     @endsection
 
     @push('page-scripts')
     <script type="text/javascript">
         $(document).ready(function() {
 
-        });
+        })
     </script>
     @endpush

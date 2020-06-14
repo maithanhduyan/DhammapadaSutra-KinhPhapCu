@@ -49,7 +49,10 @@ php artisan krlove:generate:model Users --table-name=users
 or
 php artisan krlove:generate:model Users --output-path=Model --table-name=users
 ~~~~
-
+### Create Controller
+~~~~
+php artisan make:controller ShowProfile --invokable
+~~~~
 ## Heroku Deploy
 
 - Open command promt :
