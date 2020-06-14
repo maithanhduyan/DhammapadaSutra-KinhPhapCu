@@ -9,12 +9,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    private $phamService;
 
-    public function __construct(PhamService $phamService)
-    {
-        $this->phamService = $phamService;
-    }
     /**
      * Handle the incoming request.
      *

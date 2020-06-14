@@ -20,7 +20,7 @@
             @foreach ($baike_list as $baike)
             <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-down">
                 <div class="card h-100">
-                    <a href="/phams/{{$pham->name}}/baike/{{$baike->number}}"><img class="card-img-top" src="{{asset($baike->img_url)}}" alt=""></a>
+                    <a href="/baike/{{$baike->number}}"><img class="card-img-top" src="{{asset($baike->img_url)}}" alt=""></a>
                     <div class="card-body">
                         <p class="card-text sutra-text">
                             {!!$baike->content!!}

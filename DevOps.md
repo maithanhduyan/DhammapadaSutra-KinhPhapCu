@@ -53,6 +53,15 @@ php artisan krlove:generate:model Users --output-path=Model --table-name=users
 ~~~~
 php artisan make:controller ShowProfile --invokable
 ~~~~
+### Error Handling
+You may publish Laravel's error page templates using the vendor:publish Artisan command. Once the templates have been published, you may customize them to your liking:
+~~~~
+php artisan vendor:publish --tag=laravel-errors
+~~~~
+### Session table
+~~~~
+php artisan session:table
+~~~~
 ## Heroku Deploy
 
 - Open command promt :

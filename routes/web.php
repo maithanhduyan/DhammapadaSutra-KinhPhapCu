@@ -17,4 +17,4 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/phams/{pham}', 'PhamController@show');
 
-Route::get('/phams/{pham}/baike/{baike}', 'BaiKeController@show');
+Route::get('/baike/{baike}', 'BaiKeController@show');
