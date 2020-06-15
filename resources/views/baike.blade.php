@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('meta')
-<meta property="og:url" content="{{url('/baike/$baike->number')}}" />
+<meta property="og:url" content="{{url('/baike/'. $baike->number)}}" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Kinh Pháp Cú" />
 <meta property="og:description" content="{!! $baike->content !!}" />
@@ -75,6 +75,7 @@
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">
+                            <div class="fb-like" data-href="{{url('/baike/' . $baike->number)}}" data-width="150px" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
                         </small>
                     </div>
                 </div>
@@ -83,8 +84,8 @@
             </div>
         </div>
         <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
     </div>
-    <div class="swiper-pagination"></div>
 </div>
 
 
