@@ -9,12 +9,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    private $phamService;
 
-    public function __construct(PhamService $phamService)
-    {
-        $this->phamService = $phamService;
-    }
     /**
      * Handle the incoming request.
      *
@@ -24,7 +19,6 @@ class HomeController extends Controller
     public function index()
     {
         $pham_list = Pham::all();
-        //$baike_list = BaiKe::all();
         $baike_list = BaiKe::where('pham', 'pham-song-yeu')
             ->orderBy('number', 'asc')
             ->get();

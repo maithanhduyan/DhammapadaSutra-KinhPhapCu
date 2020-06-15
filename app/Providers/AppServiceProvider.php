@@ -14,9 +14,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(PhamService::class, function () {
-            return new PhamService();
-        });
+        //
     }
 
     /**
