@@ -70,6 +70,10 @@
 </head>
 
 <body>
+    <!-- Facebook plugin -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=1632154490392543&autoLogAppEvents=1" nonce="I2YXIOAG"></script>
+
     <!-- Navbar -->
     @include('layout.navbar')
     <!-- /.navbar -->
@@ -79,14 +83,18 @@
         @yield('content')
     </div><!-- /.container -->
 
+    <!-- Facebook Page plugin -->
+    <div>
+        <div class="fb-page" data-href="https://www.facebook.com/webkinhphapcu/" data-tabs="timeline" data-width="960" data-height="70" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/webkinhphapcu/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/webkinhphapcu/">Kinh Pháp Cú</a></blockquote>
+        </div>
+    </div>
     <!-- Footer -->
     <footer class="py-3 bg-light">
         <div class="container">
             <p class="m-0 text-center text-black copyright">Copyright &copy; Mai Thành Duy An &nbsp; 2020</p>
         </div>
         <!-- /.container -->
-        <div class="fb-like" data-share="true" data-width="150" data-show-faces="true">
-        </div>
     </footer><!-- /.Footer -->
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>

@@ -11,8 +11,6 @@
 @endpush
 
 @section('content')
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=2610816795847506&autoLogAppEvents=1" nonce="WM16uVfH"></script>
 
 <div class="row">
     <div class="col-lg-12">
