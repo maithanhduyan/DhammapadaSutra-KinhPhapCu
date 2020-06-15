@@ -15,9 +15,9 @@
     <meta name="msapplication-navbutton-color" content="#F8F9FA">
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#F8F9FA">
+
     <meta name="description" content="Kinh Pháp Cú">
     <meta name="keywords" content="Kinh Pháp Cú, Phẩm Hiền Trí, Phẩm Đạo">
-    <meta name="content" content="Người trị thủy dẫn nước,<br>Kẻ làm tên nắn tên,<br>Người thợ mộc uốn gỗ,<br>Bậc trí nhiếp tự thân.<br>">
     <meta name="author" content="Mai Thành Duy An">
 
     @yield('meta')

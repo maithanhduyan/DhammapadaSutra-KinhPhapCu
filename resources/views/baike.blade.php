@@ -4,7 +4,7 @@
 <meta property="og:url" content="{{url('/baike/'. $baike->number)}}" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Kinh Pháp Cú" />
-<meta property="og:description" content="{!! $baike->content !!}" />
+<meta property="og:description" content="{!!  $baike->content !!}" http-equiv="Content-Type" />
 <meta property="og:image" content="{{asset($baike->img_url)}}" />
 @endsection
 
