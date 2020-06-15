@@ -19,7 +19,6 @@ class PhamController extends Controller
     public function show($pham)
     {
         $pham_list = Pham::all();
-        //$baike_list = BaiKe::all();
         $baike_list = BaiKe::where('pham', $pham)
             ->orderBy('number', 'asc')
             ->get();

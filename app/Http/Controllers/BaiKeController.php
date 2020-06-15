@@ -20,9 +20,9 @@ class BaiKeController extends Controller
     public function show($number)
     {
         try {
-            $pham_list = Pham::all();
-            $pham_name = Pham::where('name', 'pham-hien-tri')->first();
             $baike = BaiKe::where('number', $number)->first();
+            $pham_list = Pham::all();
+            $pham_name = Pham::where('name', $baike->pham)->first();
 
             return view('baike', [
                 'pham' => $pham_name,

@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/phams/{pham}', 'PhamController@show');
+Route::get('/{pham}', 'PhamController@show');
 
 Route::get('/baike/{baike}', 'BaiKeController@show');

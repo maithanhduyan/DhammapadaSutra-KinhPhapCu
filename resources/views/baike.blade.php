@@ -24,10 +24,27 @@
 
     }
 
+    .two .swiper-slide {
+        width: 300px;
+    }
+
     @media screen and (max-width: 992px) {
         .swiper-slide {
             width: 362px;
             height: 590px;
+        }
+    }
+
+    @-webkit-keyframes swiper-preloader-spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes swiper-preloader-spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
         }
     }
 </style>
@@ -56,6 +73,8 @@
                         </small>
                     </div>
                 </div>
+                <!--/.card -->
+
             </div>
         </div>
         <!-- Add Pagination -->
@@ -69,7 +88,7 @@
 @push('page-scripts')
 <!-- Swiper script -->
 <script src="{{asset('lib/swiper/swiper.min.js')}}"></script>
-<script id="rendered-js">
+<script>
     var swiper = new Swiper('.swiper-container.two', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
