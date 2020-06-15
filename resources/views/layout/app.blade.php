@@ -20,6 +20,8 @@
     <meta name="content" content="Người trị thủy dẫn nước,<br>Kẻ làm tên nắn tên,<br>Người thợ mộc uốn gỗ,<br>Bậc trí nhiếp tự thân.<br>">
     <meta name="author" content="Mai Thành Duy An">
 
+    @yield('meta')
+
     <title>@yield('title')</title>
 
     <!--Fonts Google-->
@@ -68,7 +70,6 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     @include('layout.navbar')
     <!-- /.navbar -->
@@ -84,6 +85,8 @@
             <p class="m-0 text-center text-black copyright">Copyright &copy; Mai Thành Duy An &nbsp; 2020</p>
         </div>
         <!-- /.container -->
+        <div class="fb-like" data-share="true" data-width="150" data-show-faces="true">
+        </div>
     </footer><!-- /.Footer -->
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
@@ -108,6 +111,8 @@
 
         gtag('config', 'G-30ERQTW3FG');
     </script>
+
+
     @stack('page-scripts')
 </body>
 

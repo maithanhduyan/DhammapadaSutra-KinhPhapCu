@@ -1,5 +1,13 @@
 @extends('layout.app')
 
+@section('meta')
+<meta property="og:url" content="{{url('/baike/$baike->number')}}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Kinh Pháp Cú" />
+<meta property="og:description" content="{!! $baike->content !!}" />
+<meta property="og:image" content="{{asset($baike->img_url)}}" />
+@endsection
+
 @section('title', 'Kinh Pháp Cú')
 
 @push('page-styles')
@@ -67,9 +75,6 @@
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">
-                            <div aria-label="Chọn biểu tượng cảm xúc 🙏" role="button" tabindex="0">
-                                <img class="nammo-ico" src="{{asset('img/icon/2hand.png')}}" alt="" style="margin: 0px;">
-                            </div>
                         </small>
                     </div>
                 </div>
@@ -105,5 +110,6 @@
         }
     });
 </script>
+
 
 @endpush
