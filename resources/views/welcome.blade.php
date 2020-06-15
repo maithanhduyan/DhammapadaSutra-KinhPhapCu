@@ -11,6 +11,8 @@
 @endpush
 
 @section('content')
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=2610816795847506&autoLogAppEvents=1" nonce="WM16uVfH"></script>
 
 <div class="row">
     <div class="col-lg-12">
@@ -28,9 +30,7 @@
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">
-                            <div aria-label="Chọn biểu tượng cảm xúc 🙏" role="button" tabindex="0">
-                                <img class="nammo-ico" src="{{asset('img/icon/2hand.png')}}" alt="" style="margin: 0px;">
-                            </div>
+                            <div class="fb-like" data-href="{{url('/baike/' . $baike->number)}}" data-width="150px" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
                         </small>
                     </div>
                 </div>
