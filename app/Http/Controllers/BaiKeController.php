@@ -21,9 +21,11 @@ class BaiKeController extends Controller
     {
         try {
             $baike = BaiKe::where('number', $number)->first();
+            if ($baike == null) {
+                $baike = BaiKe::where('number', 117)->first();
+            }
             $pham_list = Pham::all();
             $pham_name = Pham::where('name', $baike->pham)->first();
-
             return view('baike', [
                 'pham' => $pham_name,
                 'pham_list' => $pham_list,
