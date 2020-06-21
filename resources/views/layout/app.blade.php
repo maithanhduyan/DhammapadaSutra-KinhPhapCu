@@ -17,7 +17,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#F8F9FA">
 
     <meta name="description" content="Kinh Pháp Cú">
-    <meta name="keywords" content="Kinh Pháp Cú, Phẩm Hiền Trí, Phẩm Đạo">
+    <meta name="keywords" content="Kinh Pháp Cú, Phẩm Hiền Trí, Phẩm Đạo , Phẩm Ác, Phẩm Tỳ Kheo, Phẩm Bà La Môn, Phẩm Già, Phẩm Hoa, Phẩm Song Yếu, Phẩm Tâm, Phẩm Ngu, Phẩm Ngàn, Phẩm Tự Ngã, Phẩm Thế Gian, Phẩm Ngàn, Phẩm Phật Đà">
     <meta name="author" content="Mai Thành Duy An">
 
     @yield('meta')
